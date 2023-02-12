@@ -45,3 +45,21 @@ article img, article.featured img{
 /* img{
     max-width: 500px;
 } */
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+}
+body > header > ul > a:nth-child(n) > li:hover {
+    /* font-size: 20px; */
+    text-decoration: underline;
+}
